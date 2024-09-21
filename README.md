@@ -63,7 +63,7 @@ The API will be running on `http://localhost:5000`.
 
 -   **Request Body:**
 
-```json
+```
 {
   "name": "John Doe",
   "email": "johndoe@example.com",
@@ -76,7 +76,7 @@ The API will be running on `http://localhost:5000`.
 
 -   **Success (200):**
 
-```json
+```
 {
   "message": "Email sent successfully!"
 }
@@ -85,7 +85,7 @@ The API will be running on `http://localhost:5000`.
 
 -   **Error (400 or 500):**
 
-```json
+```
 {
   "message": "Failed to send email."
 }
