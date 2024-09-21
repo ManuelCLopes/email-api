@@ -17,7 +17,7 @@ if (!process.env.EMAIL_SERVICE || !process.env.EMAIL_USER || !process.env.EMAIL_
 // Middleware
 app.use(express.json());
 app.use(morgan('combined'));
-app.use(cors({ origin: 'https://manuelclopes.github.io/portfolio/' }));
+app.use(cors({ origin: 'https://manuelclopes.github.io/' }));
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
